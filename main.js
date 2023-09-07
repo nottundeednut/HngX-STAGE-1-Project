@@ -9,7 +9,7 @@ const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frida
 const dayEl = document.querySelector('#day');
 const timeEl = document.querySelector('#time');
 
-const currentTime = minutes < 10 ? `${utcHours} : 0${minutes}` : `${utcHours} : ${minutes}`
+const currentTime = minutes < 10 ? `${utcHours}:0${minutes}` : `${utcHours}:${minutes}`
 
 dayEl.innerHTML = weekDays[day];
 timeEl.innerHTML = currentTime;
