@@ -10,26 +10,35 @@
   </head>
 
   <body>
-    <p>
-      Hi, my Slack name is
-      <span data-testid="slackUserName">nottundeednt</span>.
-    </p>
-    <p>I am a <span data-testid="myTrack">Frontend Track</span> intern.</p>
-    <img
-      src="/20230907_082213.jpg"
-      alt="nottundeednt"
-      data-testid="slackDisplayImage"
-      width="150px"
-    />
-    <p>Today is <span data-testid="currentDayOfTheWeek" id="day"></span>.</p>
-    <p>
-      Current UTC time is
-      <span data-testid="currentUTCTime" id="time"></span>
-    </p>
-    <p>
-      Here is the <a href="https://github.com/nottundeednut/HngX-STAGE-1-Project" data-testid="githubURL" target="_blank">url</a> to the Github
-      repository
-    </p>
-    <script src="main.js"></script>
+    <div class="container">
+      <h1>
+        Hi, my Slack name is
+        <span data-testid="slackUserName">nottundeednt</span>.
+      </h1>
+      <img
+        src="/20230907_082213.jpg"
+        alt="nottundeednt"
+        data-testid="slackDisplayImage"
+      />
+      <p>Today is <span data-testid="currentDayOfTheWeek" id="day"></span>.</p>
+      <p>
+        The current UTC time is
+        <span data-testid="currentUTCTime" id="time"></span>.
+      </p>
+
+      <p>I am a <span data-testid="myTrack">Frontend Track</span> intern.</p>
+
+      <p>
+        Here is the
+        <a
+          href="https://github.com/nottundeednut/HngX-STAGE-1-Project"
+          data-testid="githubURL"
+          target="_blank"
+          >url</a
+        >
+        to the Github repository
+      </p>
+      <script src="main.js"></script>
+    </div>
   </body>
 </html>
