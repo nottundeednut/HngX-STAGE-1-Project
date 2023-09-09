@@ -7,37 +7,28 @@
 
     <title>HTML</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
   </head>
 
   <body>
     <div class="container">
-      <h1>
-        Hi, my Slack name is
-        <span data-testid="slackUserName" id="name">nottundeednut</span>.
-      </h1>
+      <h1 data-testid="slackUserName" id="name">nottundeednut</h1>
       <img
         src="/20230907_082213.jpg"
         alt="nottundeednt"
         data-testid="slackDisplayImage"
       />
-      <p>Today is <span data-testid="currentDayOfTheWeek" id="day"></span>.</p>
-      <p>
-        The current UTC time is
-        <span data-testid="currentUTCTime" id="time"></span>.
-      </p>
+      <h2 data-testid="currentDayOfTheWeek" id="day"></h2>
+      <p span data-testid="currentUTCTime" id="time"></p>
 
-      <p>I am a <span data-testid="myTrack">Frontend</span> intern.</p>
+      <h2 data-testid="myTrack">Frontend Intern</h2>
 
-      <p>
-        The repository can be found in this 
-        <a
-          href="https://github.com/nottundeednut/HngX-STAGE-1-Project"
-          data-testid="githubURL"
-          target="_blank"
-          >Link</a
-        >
-      </p>
-      <script src="main.js"></script>
+      <a
+        href="https://github.com/nottundeednut/HngX-STAGE-1-Project"
+        data-testid="githubURL"
+        target="_blank"
+        >Repository Link</a
+      >
     </div>
   </body>
 </html>
